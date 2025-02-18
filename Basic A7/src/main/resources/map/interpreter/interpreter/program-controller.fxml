@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+
+    <VBox spacing="10" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.bottomAnchor="20">
+        <ListView fx:id="listView" VBox.vgrow="ALWAYS" />
+
+        <HBox spacing="10">
+
+            <VBox HBox.hgrow="ALWAYS">
+                <Label text="Please enter the logfile path:" prefHeight="20"/>
+                <TextArea fx:id="textArea" prefHeight="40" HBox.hgrow="ALWAYS" />
+            </VBox>
+
+            <Button text="Start" prefWidth="300" prefHeight="60" onAction="#handleStartButton" />
+        </HBox>
+    </VBox>
+
+</AnchorPane>

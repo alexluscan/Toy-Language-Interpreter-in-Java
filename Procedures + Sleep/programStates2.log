@@ -1,0 +1,1045 @@
+ID = 1
+Execution Stack = 
+int v
+int w
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int v
+int w
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int v
+int w
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int w
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int w
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int w
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int w
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->0, w->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->0, w->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->0, w->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+v=2
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->0, w->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+w=5
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->0}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+call sum({v*10,w})
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int v
+v=a+b
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int v
+v=a+b
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int v
+v=a+b
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int v
+v=a+b
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+v=a+b
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5, v->0}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+v=a+b
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5, v->0}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+v=a+b
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5, v->0}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+v=a+b
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5, v->0}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5, v->25}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(v)
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5, v->25}|{v->2, w->5}}
+Output List = {}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5, v->25}|{v->2, w->5}}
+Output List = {25}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+return
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{a->20, b->5, v->25}|{v->2, w->5}}
+Output List = {25}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(v)
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((call product({v,w});fork(call sum({v,w}))))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 1
+Execution Stack = 
+(EMPTY)
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+call product({v,w})
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+call product({v,w})
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+call product({v,w})
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+call product({v,w})
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+int v
+v=a*b
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+int v
+v=a*b
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+int v
+v=a*b
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+int v
+v=a*b
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+v=a*b
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5, v->0}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+v=a*b
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5, v->0}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+v=a*b
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5, v->0}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+v=a*b
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5, v->0}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5, v->10}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+print(v)
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5, v->10}|{v->2, w->5}}
+Output List = {25,2}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5, v->10}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+return
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{a->2, b->5, v->10}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+fork(call sum({v,w}))
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 2
+Execution Stack = 
+(EMPTY)
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+call sum({v,w})
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+call sum({v,w})
+
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+int v
+v=a+b
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+int v
+v=a+b
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+int v
+v=a+b
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+int v
+v=a+b
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+v=a+b
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5, v->0}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+v=a+b
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5, v->0}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+v=a+b
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5, v->0}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+v=a+b
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5, v->0}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5, v->7}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+print(v)
+return
+
+Symbols Table Stack = {{a->2, b->5, v->7}|{v->2, w->5}}
+Output List = {25,2,10}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+return
+
+Symbols Table Stack = {{a->2, b->5, v->7}|{v->2, w->5}}
+Output List = {25,2,10,7}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+return
+
+Symbols Table Stack = {{a->2, b->5, v->7}|{v->2, w->5}}
+Output List = {25,2,10,7}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+
+ID = 3
+Execution Stack = 
+(EMPTY)
+Symbols Table Stack = {{v->2, w->5}}
+Output List = {25,2,10,7}
+File Table = {}
+Heap = {}
+Proc Table = {product->{a,b}=(int v;(v=a*b;print(v))), sum->{a,b}=(int v;(v=a+b;print(v)))}
+====================>
+
+

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="map.interpreter.interpreter.services.ProgramDashboardServices"
+            prefHeight="600.0" prefWidth="800.0">
+
+    <!-- Main VBox Container -->
+    <VBox spacing="10" AnchorPane.topAnchor="20" AnchorPane.leftAnchor="20"
+          AnchorPane.rightAnchor="20" AnchorPane.bottomAnchor="20">
+
+        <HBox spacing="10" HBox.hgrow="ALWAYS">
+            <!-- Top Section: PrgState Identifiers and Count -->
+            <VBox spacing="10" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS">
+                <VBox spacing="5" alignment="CENTER_LEFT">
+                    <Label text="Number of PrgStates:" />
+                    <TextField fx:id="txtNumberOfPrgStates" prefWidth="100.0" editable="false"/>
+                </VBox>
+                <VBox spacing="5" alignment="CENTER_LEFT">
+                    <Label text="PrgState Identifiers" />
+                    <ListView fx:id="listPrgStateIds" prefHeight="150.0" prefWidth="120.0" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS"/>
+                </VBox>
+            </VBox>
+
+            <!-- Center Section: Execution Stack and SymTable -->
+            <HBox spacing="10" HBox.hgrow="ALWAYS">
+                <!-- Execution Stack -->
+                <VBox spacing="5" alignment="CENTER_LEFT" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS">
+                    <Label text="ExeStack" />
+                    <ListView fx:id="listExeStack" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS"/>
+                </VBox>
+
+                <!-- SymTable and FileTable -->
+                <VBox spacing="5" alignment="CENTER_LEFT" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS">
+                    <!-- SymTable -->
+                    <Label text="SymTable" />
+                    <TableView fx:id="symTable" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS" prefHeight="150.0">
+                        <columns>
+                            <TableColumn text="Variable Name" fx:id="symTableVariableNameColumn" prefWidth="120.0"/>
+                            <TableColumn text="Value" fx:id="symTableValueColumn" prefWidth="120.0"/>
+                        </columns>
+                    </TableView>
+
+                    <!-- FileTable -->
+                    <Label text="FileTable" />
+                    <ListView fx:id="listFileTable" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS" prefHeight="100.0"/>
+                </VBox>
+            </HBox>
+        </HBox>
+
+        <!-- Bottom Section: ListOut and HeapTable -->
+        <HBox spacing="10" HBox.hgrow="ALWAYS">
+            <!-- ListOut -->
+            <VBox spacing="5" alignment="CENTER_LEFT" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS">
+                <Label text="Out" />
+                <ListView fx:id="listOut" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS" prefHeight="100.0"/>
+            </VBox>
+
+            <!-- HeapTable -->
+            <VBox spacing="5" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS">
+                <Label text="HeapTable" />
+                <TableView fx:id="heapTable" VBox.vgrow="ALWAYS" HBox.hgrow="ALWAYS" prefHeight="150.0">
+                    <columns>
+                        <TableColumn text="Address" fx:id="heapAddressColumn" prefWidth="150.0"/>
+                        <TableColumn text="Value" fx:id="heapValueColumn" prefWidth="150.0"/>
+                    </columns>
+                </TableView>
+            </VBox>
+        </HBox>
+
+        <!-- Run One Step Button -->
+        <HBox spacing="10" alignment="CENTER">
+            <Button text="Run One Step" fx:id="btnRunOneStep" onAction="#handleRunOneStep" />
+        </HBox>
+
+    </VBox>
+
+</AnchorPane>

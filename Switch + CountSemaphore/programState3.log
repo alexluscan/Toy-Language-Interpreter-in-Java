@@ -1,0 +1,1349 @@
+ID = 1
+Execution Stack = 
+Ref(int) v1
+int cnt
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+Ref(int) v1
+int cnt
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+Ref(int) v1
+int cnt
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int cnt
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {v1->(0, int)}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int cnt
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {v1->(0, int)}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int cnt
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {v1->(0, int)}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+int cnt
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {v1->(0, int)}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->0, v1->(0, int)}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->0, v1->(0, int)}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->0, v1->(0, int)}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+new(v1, 1)
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->0, v1->(0, int)}
+Output List = {}
+File Table = {}
+Heap = {}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->0, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->0, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->0, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+createSemaphore(cnt, rH(v1))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->0, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(print(rH(v1));releaseSemaphore(cnt)))))
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+fork((acquireSemaphore(cnt);(wH(v1,rH(v1)*10);(wH(v1,rH(v1)*2);(print(rH(v1));releaseSemaphore(cnt))))))
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+wH(v1,rH(v1)*10)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+wH(v1,rH(v1)*10)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+wH(v1,rH(v1)*10)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+wH(v1,rH(v1)*10)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=1}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{2}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 2
+Execution Stack = 
+(EMPTY)
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+acquireSemaphore(cnt)
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+print(rH(v1)-1)
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+acquireSemaphore(cnt)
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{1}}
+====================>
+
+
+ID = 1
+Execution Stack = 
+(EMPTY)
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+wH(v1,rH(v1)*10)
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=10}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=100}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=100}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=100}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+wH(v1,rH(v1)*2)
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=100}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=200}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=200}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=200}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+print(rH(v1))
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9}
+File Table = {}
+Heap = {1=200}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9,200}
+File Table = {}
+Heap = {1=200}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+releaseSemaphore(cnt)
+
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9,200}
+File Table = {}
+Heap = {1=200}
+Semaphore Table = {1->1{3}}
+====================>
+
+
+ID = 3
+Execution Stack = 
+(EMPTY)
+Symbols Table = {cnt->1, v1->(1, int)}
+Output List = {10,9,200}
+File Table = {}
+Heap = {1=200}
+Semaphore Table = {1->1{}}
+====================>
+
+
